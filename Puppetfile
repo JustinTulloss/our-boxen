@@ -39,7 +39,6 @@ github "module-data", "0.0.3", :repo => "ripienaar/puppet-module-data"
 # some/most of these if you want, but it's not recommended.
 
 github "dnsmasq",     "1.0.1"
-github "foreman",     "1.2.0"
 github "gcc",         "2.0.100"
 github "git",         "2.3.0"
 github "go",          "1.1.0"
@@ -47,7 +46,7 @@ github "homebrew",    "1.6.2"
 github "hub",         "1.3.0"
 github "inifile",     "1.0.3", :repo => "puppetlabs/puppetlabs-inifile"
 github "nginx",       "1.4.3"
-github "nodejs",      "3.7.0"
+#github "nodejs",      "3.7.0"
 github "openssl",     "1.0.0"
 github "phantomjs",   "2.3.0"
 github "pkgconfig",   "1.0.0"
@@ -59,3 +58,32 @@ github "xquartz",     "1.1.1"
 
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
+github "python",     "1.3.0"
+github "sysctl",     "1.0.0"
+github "mysql",      "1.2.0"
+github "postgresql", "3.0.0"
+github "java",       "1.2.0"
+github "heroku",     "2.0.0"
+
+# Apps
+github "onepassword", "1.1.0"
+github "chrome",     "1.1.2"
+github "firefox",    "1.1.7"
+github "rdio",       "1.0.0"
+github "vmware_fusion", "1.1.0"
+github "dropbox",    "1.2.0"
+github "cloudapp",   "1.0.0"
+
+# Editors
+github "pycharm",    "1.0.4"
+github "macvim",     "1.0.0"
+github "sublime_text_2", "1.1.2"
+github "emacs",      "1.1.1"
+github "intellij",   "1.4.0"
+github "textmate",   "1.1.0"
+
+# Messaging
+github "skype",      "1.0.8"
+github "adium",      "1.3.0"
+github "slack",      "1.0.3"
+
