@@ -23,7 +23,7 @@ end
 
 # Shortcut for a module under development
 def dev(name, *args)
-  mod name, :path => "#{ENV['HOME']}/src/boxen/puppet-#{name}"
+  mod name, :path => "#{ENV['HOME']}/src/puppet-#{name}"
 end
 
 # Includes many of our custom types and providers, as well as global
@@ -87,3 +87,4 @@ github "skype",      "1.0.8"
 github "adium",      "1.3.0"
 github "slack",      "1.0.3"
 
+github "julia",      "1.0.0"

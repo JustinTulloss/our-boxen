@@ -79,6 +79,11 @@ GITHUBTARBALL
     java (1.2.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-julia
+  specs:
+    julia (1.0.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-macvim
   specs:
     macvim (1.0.0)
@@ -216,6 +221,7 @@ DEPENDENCIES
   inifile (= 1.0.3)
   intellij (= 1.4.0)
   java (= 1.2.0)
+  julia (= 1.0.0)
   macvim (= 1.0.0)
   module-data (= 0.0.3)
   mysql (= 1.2.0)

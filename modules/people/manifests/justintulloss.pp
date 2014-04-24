@@ -3,6 +3,8 @@ class people::justintulloss {
   include onepassword
   include chrome::beta
   include adium
+  include julia
+  include nodejs::v0_10
 
   package {
     [
@@ -10,6 +12,14 @@ class people::justintulloss {
       'tmux',
       'zsh'
     ]:
+  }
+
+  class { 'nodejs::global':
+      version => 'v0.10'
+  }
+
+  nodejs::module { 'mocha':
+    node_version => 'v0.10'
   }
 
   git::config::global { 'user.email':
